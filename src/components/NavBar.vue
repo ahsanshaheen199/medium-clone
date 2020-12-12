@@ -7,11 +7,8 @@
             </div>
             <div class="w-3/4">
                 <div class="flex justify-end items-center">
-                    <a class="px-3 py-2 rounded hover:bg-gray-500" href="#">Home</a>
-                    <a class="px-3 py-2 rounded hover:bg-gray-500" href="#">New Post</a>
-                    <a class="px-3 py-2 rounded hover:bg-gray-500" href="#">Settings</a>
-                    <a class="px-3 py-2 rounded hover:bg-gray-500" href="#">Sign In</a>
-                    <a class="px-3 py-2 rounded hover:bg-gray-500" href="#">Register</a>
+                    <router-link class="px-3 py-2 rounded hover:bg-gray-500" to="/">Home</router-link>
+                    <router-link class="px-3 py-2 rounded hover:bg-gray-500" to="/login">Login</router-link>
                 </div>
             </div>
         </div>
